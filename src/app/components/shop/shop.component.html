@@ -1,0 +1,660 @@
+
+    <title>DAKR - Online Course & Education HTML Template</title>
+
+    <!--=================================
+    Modal login -->
+    <div class="modal login fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <h5 class="modal-title" id="loginModalLabel">Log in & Register</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <ul class="nav nav-tabs nav-tabs-02 justify-content-center" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="login-tab" data-bs-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="false"> <span> Log in</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="register-tab" data-bs-toggle="tab" href="#register" role="tab" aria-controls="register" aria-selected="true"><span>Register</span></a>
+              </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                <form class="row my-4 align-items-center">
+                  <div class="mb-3 col-sm-12">
+                    <input type="text" class="form-control" placeholder="Username">
+                  </div>
+                  <div class="mb-3 col-sm-12">
+                    <input type="Password" class="form-control" placeholder="Password">
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="d-grid">
+                      <button type="submit" class="btn btn-primary">Sign up</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <ul class="list-unstyled d-flex mb-1 mt-sm-0 mt-3">
+                      <li class="me-1"><a class="text-dark" href="#"><b>Already Registered User? Click here to login</b></a></li>
+                    </ul>
+                  </div>
+                </form>
+                <div class="login-social-media border ps-4 pe-4 pb-4 pt-0 rounded-sm">
+                  <div class="mb-4 d-block text-center"><b class="bg-white ps-2 pe-2 mt-3 d-block">Login or Sign in with</b></div>
+                  <form class="row">
+                    <div class="col-sm-6">
+                      <a class="btn facebook-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-facebook-f me-2"></i>Login with Facebook</span></a>
+                    </div>
+                    <div class="col-sm-6">
+                      <a class="btn twitter-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-twitter me-2"></i>Login with Twitter</span></a>
+                    </div>
+                    <div class="col-sm-6">
+                      <a class="btn instagram-bg social-bg-hover d-block mb-3 mb-sm-0" href="#"><span><i class="fab fa-instagram me-2"></i>Login with Instagram</span></a>
+                    </div>
+                    <div class="col-sm-6">
+                      <a class="btn linkedin-bg social-bg-hover d-block" href="#"><span><i class="fab fa-linkedin-in me-2"></i>Login with Linkedin</span></a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                <form class="row my-4 align-items-center">
+                  <div class="mb-3 col-sm-12">
+                    <input type="text" class="form-control" placeholder="Username">
+                  </div>
+                  <div class="mb-3 col-sm-12">
+                    <input type="email" class="form-control" placeholder="Email Address">
+                  </div>
+                  <div class="mb-3 col-sm-12">
+                    <input type="Password" class="form-control" placeholder="Password">
+                  </div>
+                  <div class="mb-3 col-sm-12">
+                    <input type="Password" class="form-control" placeholder="Confirm Password">
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="d-grid">
+                      <button type="submit" class="btn btn-primary">Sign up</button>
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <ul class="list-unstyled d-flex mb-1 mt-sm-0 mt-3">
+                      <li class="me-1"><a class="text-dark" href="#"><b>Already Registered User? Click here to login</b></a></li>
+                    </ul>
+                  </div>
+                </form>
+                <div class="login-social-media border ps-4 pe-4 pb-4 pt-0 rounded-sm">
+                  <div class="mb-4 d-block text-center"><b class="bg-white ps-2 pe-2 mt-3 d-block">Login or Sign in with</b></div>
+                  <form class="row">
+                    <div class="col-sm-6">
+                      <a class="btn facebook-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-facebook-f me-2"></i>Login with Facebook</span></a>
+                    </div>
+                    <div class="col-sm-6">
+                      <a class="btn twitter-bg social-bg-hover d-block mb-3" href="#"><span><i class="fab fa-twitter me-2"></i>Login with Twitter</span></a>
+                    </div>
+                    <div class="col-sm-6">
+                      <a class="btn instagram-bg social-bg-hover d-block mb-3 mb-sm-0" href="#"><span><i class="fab fa-instagram me-2"></i>Login with Instagram</span></a>
+                    </div>
+                    <div class="col-sm-6">
+                      <a class="btn linkedin-bg social-bg-hover d-block" href="#"><span><i class="fab fa-linkedin-in me-2"></i>Login with Linkedin</span></a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--=================================
+    Modal login -->
+
+    <!--=================================
+    Inner Header -->
+    <section class="inner-header bg-holder bg-overlay-black-90" style="background-image: url('../../../assets/images/bg/03.jpg');">
+      <div class="container">
+        <div class="row align-items-center position-relative">
+          <div class="col-md-6 text-center text-md-start mb-2 mb-md-0">
+            <h1 class="breadcrumb-title mb-0 text-white">Shop</h1>
+          </div>
+          <div class="col-md-6">
+            <ol class="breadcrumb d-flex justify-content-center justify-content-md-end ms-auto">
+              <li class="breadcrumb-item"><a href="../../../index.html"><i class="fas fa-home me-1"></i>Home</a></li>
+              <li class="breadcrumb-item active"><span>Shop</span></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=================================
+    Inner Header -->
+
+    <!--=================================
+    Product -->
+    <section class="space-ptb">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 col-xl-4 order-2 order-md-1 mt-5 mt-md-0">
+            <div class="shop-sidebar">
+              <div class="widgets">
+                <div class="widget">
+                  <h6 class="widget-title">Search by</h6>
+                  <div class="widget-content">
+                    <form class="fill-form">
+                      <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Search">
+                      </div>
+                      <button type="button" class="btn btn-primary">Search</button>
+                    </form>
+                  </div>
+                </div>
+                <div class="widget">
+                  <h6 class="widget-title">Filter by price</h6>
+                  <div class="widget-content">
+                    <div class="mb-3">
+                      <div class="collapse show" id="price">
+                        <div class="property-price-slider">
+                          <input type="text" id="property-price-slider" name="example_name" value="" />
+                        </div>
+                      </div>
+                    </div>
+                    <div class="price-filter">
+                      <div class="price_label">
+                        Price: <span class="from">$10 — $382</span>
+                      </div>
+                      <a class="" href="#"><i class="fas fa-filter"></i>Filter</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget">
+                  <h6 class="widget-title">Categories</h6>
+                  <div class="widget-content">
+                    <div class="custom-control form-check custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input" id="customCheck2">
+                      <label class="custom-control-label" for="customCheck2">Entrepreneurship Fundamentals</label>
+                      <span>(2)</span>
+                    </div>
+                    <div class="custom-control form-check custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input" id="customCheck3">
+                      <label class="custom-control-label" for="customCheck3">Product Management</label>
+                      <span>(1)</span>
+                    </div>
+                    <div class="custom-control form-check custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input" id="customCheck4">
+                      <label class="custom-control-label" for="customCheck4">Business Process Management</label>
+                      <span>(2)</span>
+                    </div>
+                    <div class="custom-control form-check custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input" id="customCheck5">
+                      <label class="custom-control-label" for="customCheck5">Database Management</label>
+                      <span>(3)</span>
+                    </div>
+                    <div class="custom-control form-check custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input" id="customCheck6">
+                      <label class="custom-control-label" for="customCheck6">Robotic Process Automation</label>
+                      <span>(1)</span>
+                    </div>
+                    <div class="custom-control form-check custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="customCheck7">
+                      <label class="custom-control-label" for="customCheck7">Instructional Design</label>
+                      <span>(1)</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget widget-Categories">
+                  <h6 class="widget-title">Book details</h6>
+                  <div class="widget-content">
+                    <div class="custom-control custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input" id="checkbox1">
+                      <label class="custom-control-label" for="checkbox1">Authored By</label>
+                    </div>
+                    <div class="custom-control custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input" id="checkbox2">
+                      <label class="custom-control-label" for="checkbox2">Edition</label>
+                    </div>
+                    <div class="custom-control custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input" id="checkbox3">
+                      <label class="custom-control-label" for="checkbox3">Number of Pages</label>
+                    </div>
+                    <div class="custom-control custom-checkbox mb-3">
+                      <input type="checkbox" class="custom-control-input" id="checkbox4">
+                      <label class="custom-control-label" for="checkbox4">Edited by</label>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget">
+                  <h6 class="widget-title">Follow on</h6>
+                  <div class="widget-content">
+                    <div class="social-icon-round">
+                      <ul>
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-google"></i></a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="widget widget-tag">
+                  <h6 class="widget-title">Tags</h6>
+                  <div class="widget-content">
+                    <ul class="list list-unstyled mb-0">
+                      <li><a href="#">Design</a></li>
+                      <li><a href="#">Development   </a></li>
+                      <li><a href="#">Marketing</a></li>
+                      <li><a href="#">Photography</a></li>
+                      <li><a href="#">Music</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-8 col-md-7  order-1 order-md-1">
+            <h6 class="mb-4">Product filters</h6>
+            <div class="row">
+              <div class="col-lg-4">
+                <input type="search" id="shop-filter-search" class="search-field mb-3" placeholder="Search products…" value="" name="s">
+              </div>
+              <div class="col-lg-4">
+                <div class="mb-3 select-border">
+                  <select class="form-control basic-select">
+                    <option value="1" selected="selected">Development</option>
+                    <option value="3">Design</option>
+                    <option value="4">Marketing</option>
+                    <option value="2">IT & software</option>
+                    <option value="2">Photography</option>
+                    <option value="2">Music</option>
+                    <option value="2">Personal Development</option>
+                    <option value="2">Business</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="mb-3 select-border">
+                  <select class="form-control basic-select">
+                    <option value="1" selected="selected">Any rating</option>
+                    <option value="2">5 Star</option>
+                    <option value="3">4 Star</option>
+                    <option value="4">3 Star</option>
+                    <option value="5">2 Star</option>
+                    <option value="6">1 Star</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row my-2 align-items-center">
+              <div class="col-lg-8">
+                <p>Showing all 2 results</p>
+              </div>
+              <div class="col-lg-4">
+                <div class="mb-3 select-border">
+                  <select class="form-control basic-select">
+                    <option value="1" selected="selected">Default sorting</option>
+                    <option value="2">Sort by popularity</option>
+                    <option value="3">Sort by average rating</option>
+                    <option value="4">Sort by latest</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6 col-md-6 col-lg-4 mb-4">
+                <div class="product">
+                  <div class="product-image">
+                    <img class="img-fluid mx-auto" src="../../../assets/images/shop/01.jpg" alt="">
+                    <div class="product-overlay">
+                      <div class="add-to-cart">
+                        <a href="cart.html">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-description">
+                    <div class="product-title">
+                      <a href="shop-single.html">Landscape Visitors Book - 122 Pages, A Design, A4</a>
+                    </div>
+                    <div class="product-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="product-price">
+                      <del>$24.99</del> <ins>$12.49</ins>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4 mb-4">
+                <div class="product">
+                  <div class="product-image">
+                    <img class="img-fluid mx-auto" src="../../../assets/images/shop/02.jpg" alt="">
+                    <div class="product-overlay">
+                      <div class="add-to-cart">
+                        <a href="cart.html">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-description">
+                    <div class="product-title">
+                      <a href="shop-single.html">Leather Visitors Notebook True-Ally A4 Faux</a>
+                    </div>
+                    <div class="product-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="product-price">
+                      <del>$20.00</del> <ins>$15.00</ins>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4 mb-4">
+                <div class="product">
+                  <div class="product-image">
+                    <img class="img-fluid mx-auto" src="../../../assets/images/shop/03.jpg" alt="">
+                    <div class="product-overlay">
+                      <div class="add-to-cart">
+                        <a href="cart.html">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-description">
+                    <div class="product-title">
+                      <a href="shop-single.html">Hard Bound Notebook with Elastic Band-A5 Size</a>
+                    </div>
+                    <div class="product-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="product-price">
+                      <del>$21.99</del> <ins>$17.49</ins>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4 mb-4">
+                <div class="product">
+                  <div class="product-image">
+                    <img class="img-fluid mx-auto" src="../../../assets/images/shop/04.jpg" alt="">
+                    <div class="product-overlay">
+                      <div class="add-to-cart">
+                        <a href="cart.html">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-description">
+                    <div class="product-title">
+                      <a href="shop-single.html">Classmate Soft Cover 6 Subject Spiral Binding Notebook</a>
+                    </div>
+                    <div class="product-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="product-price">
+                      <del>$24.99</del> <ins>$12.49</ins>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4 mb-4">
+                <div class="product">
+                  <div class="product-image">
+                    <img class="img-fluid mx-auto" src="../../../assets/images/shop/05.jpg" alt="">
+                    <div class="product-overlay">
+                      <div class="add-to-cart">
+                        <a href="cart.html">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-description">
+                    <div class="product-title">
+                      <a href="shop-single.html">Decision Planner pad, 22 X 14.3 cm, 100 Pages, 90 GSM Paper</a>
+                    </div>
+                    <div class="product-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="product-price">
+                      <ins>$25.49</ins>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4 mb-4">
+                <div class="product">
+                  <div class="product-image">
+                    <img class="img-fluid mx-auto" src="../../../assets/images/shop/06.jpg" alt="">
+                    <div class="product-overlay">
+                      <div class="add-to-cart">
+                        <a href="cart.html">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-description">
+                    <div class="product-title">
+                      <a href="shop-single.html">Papergrid Notebook - (19 cm x 15.5 cm), Unruled, 156 Pages</a>
+                    </div>
+                    <div class="product-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="product-price">
+                      <del>$27.00</del> <ins>$20.00</ins>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                <div class="product">
+                  <div class="product-image">
+                    <img class="img-fluid mx-auto" src="../../../assets/images/shop/07.jpg" alt="">
+                    <div class="product-overlay">
+                      <div class="add-to-cart">
+                        <a href="cart.html">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-description">
+                    <div class="product-title">
+                      <a href="shop-single.html">A3 Artist Sketch Book 50 Sheets 100 Pages 120GSM, Craft Cover</a>
+                    </div>
+                    <div class="product-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="product-price">
+                      <del>$25.99</del> <ins>$10.49</ins>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4 mb-4 mb-lg-0">
+                <div class="product">
+                  <div class="product-image">
+                    <img class="img-fluid mx-auto" src="../../../assets/images/shop/08.jpg" alt="">
+                    <div class="product-overlay">
+                      <div class="add-to-cart">
+                        <a href="cart.html">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-description">
+                    <div class="product-title">
+                      <a href="shop-single.html">Exercise Notebook, Single Ruled - (18cm X 24cm), 250 Pages, Pack of 3</a>
+                    </div>
+                    <div class="product-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="product-price">
+                      <del>$30.00</del> <ins>$25.00</ins>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-6 col-lg-4">
+                <div class="product">
+                  <div class="product-image">
+                    <img class="img-fluid mx-auto" src="../../../assets/images/shop/09.jpg" alt="">
+                    <div class="product-overlay">
+                      <div class="add-to-cart">
+                        <a href="cart.html">Add to cart</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="product-description">
+                    <div class="product-title">
+                      <a href="shop-single.html">Cotton Watercolour Stitched Bound Journal Cold Pressed, 200 GSM A4-30 Sheets</a>
+                    </div>
+                    <div class="product-rating">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                      <i class="far fa-star"></i>
+                    </div>
+                    <div class="product-price">
+                      <del>$32.00</del> <ins>$25.00</ins>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=================================
+    Product -->
+<!--=================================
+    footer-->
+    <footer class="footer footer-dark space-ptb bg-dark">
+      <div class="container">
+       
+        <div class="row">
+          <div class="col-12">
+            <hr class="my-5 opacity-1">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-3 mb-4 mb-lg-0">
+            <div class="footer-contact-info">
+              <div class="footer-logo mb-2">
+                <a href="../../../index.html"><img class="img-fluid" src="../../../assets/images/Screenshot_20230107_113200-removebg-preview.png" alt=""></a>
+              </div>
+              <div class="contact-address">
+                <div class="contact-item mb-3 mb-md-4">
+                  <p>4th floor, Yashashree Space
+                    Studio , beside Hyndava
+                    Techno, Hitech city, near
+                    Raigurgam metro <br>Hyderabad, Telangana 500060</p>
+                </div>
+                <div class="contact-item mb-3 mb-md-4">
+                  <h4 class="mb-0 fw-normal"><a href="#" class="text-primary">+91 9581164101</a></h4>
+                </div>
+                <div class="contact-item">
+                  <a href="#">dakr@dakrenterprises.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-3 col-lg-4 mb-4 mb-lg-0">
+            <h5 class="footer-title text-primary">Explore</h5>
+            <div class="footer-link">
+              <ul class="list-unstyled mb-0">
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Success story</a></li>
+                <li><a href="#">Teachers</a></li>
+                <li><a href="#">Contact us</a></li>
+              </ul>
+              <ul class="list-unstyled mb-0">
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Our news</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-xl-3 col-lg-2 mb-4 mb-sm-0">
+            <h5 class="footer-title text-primary">Resources</h5>
+            <div class="footer-link">
+              <ul class="list-unstyled mb-0">
+                <li><a href="#">Donors</a></li>
+                <li><a href="#">Educators</a></li>
+                <li><a href="#">Professionals</a></li>
+                <li><a href="#">Become A Teacher</a></li>
+                <li><a href="#">Student Profile</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-lg-3">
+            <h5 class="footer-title text-primary">Subscribe us</h5>
+            <p>Sign up to our newsletter to get the latest news and offers.</p>
+            <form>
+              <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Email*">
+              </div>
+              <button type="submit" class="btn btn-sm btn-primary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom pt-5 pb-0 bg-dark">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="social-icon text-md-start text-center mb-3 mb-md-0">
+                <ul>
+                  <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="https://www.linkedin.com/company/dakr-solutions/mycompan"><i class="fab fa-linkedin-in"></i></a></li>
+                  <li><a href="https://www.instagram.com/dakr_solutions"><i class="fab fa-instagram"></i></a></li>
+                  <li><a href="#"><i class="fab fa-google"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="copyright text-md-end text-center">
+                <p class="mb-0 small">© Copyright 2023 <a href="#">DAKR Solutions</a> All Rights Reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--=================================
+    footer-->
+
+
+    <!--=================================
+    Back To Top -->
+    <div id="back-to-top" class="back-to-top">
+      <a href="#"><i class="fas fa-chevron-up"></i></a>
+    </div>
+    <!--=================================
+    Back To Top -->
